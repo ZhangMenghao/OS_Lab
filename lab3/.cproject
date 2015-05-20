@@ -1,34 +1,32 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <?fileVersion 4.0.0?><cproject storage_type_id="org.eclipse.cdt.core.XmlProjectDescriptionStorage">
 	<storageModule moduleId="org.eclipse.cdt.core.settings">
-		<cconfiguration id="0.1187852349">
-			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="0.1187852349" moduleId="org.eclipse.cdt.core.settings" name="Default">
+		<cconfiguration id="cdt.managedbuild.toolchain.gnu.cross.base.523952327">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="cdt.managedbuild.toolchain.gnu.cross.base.523952327" moduleId="org.eclipse.cdt.core.settings" name="Default">
 				<externalSettings/>
 				<extensions>
-					<extension id="org.eclipse.cdt.core.VCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
 					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
 					<extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
 					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
 					<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
 					<extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
 				</extensions>
 			</storageModule>
 			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
-				<configuration buildProperties="" description="" id="0.1187852349" name="Default" parent="org.eclipse.cdt.build.core.prefbase.cfg">
-					<folderInfo id="0.1187852349." name="/" resourcePath="">
-						<toolChain id="org.eclipse.cdt.build.core.prefbase.toolchain.1170226413" name="No ToolChain" resourceTypeBasedDiscovery="false" superClass="org.eclipse.cdt.build.core.prefbase.toolchain">
-							<targetPlatform id="org.eclipse.cdt.build.core.prefbase.toolchain.1170226413.1196606627" name=""/>
-							<builder id="org.eclipse.cdt.build.core.settings.default.builder.579847088" keepEnvironmentInBuildfile="false" managedBuildOn="false" name="Gnu Make Builder" superClass="org.eclipse.cdt.build.core.settings.default.builder"/>
-							<tool id="org.eclipse.cdt.build.core.settings.holder.libs.1959416521" name="holder for library settings" superClass="org.eclipse.cdt.build.core.settings.holder.libs"/>
-							<tool id="org.eclipse.cdt.build.core.settings.holder.1124022289" name="Assembly" superClass="org.eclipse.cdt.build.core.settings.holder">
-								<inputType id="org.eclipse.cdt.build.core.settings.holder.inType.1530802738" languageId="org.eclipse.cdt.core.assembly" languageName="Assembly" sourceContentType="org.eclipse.cdt.core.asmSource" superClass="org.eclipse.cdt.build.core.settings.holder.inType"/>
-							</tool>
-							<tool id="org.eclipse.cdt.build.core.settings.holder.1098833151" name="GNU C++" superClass="org.eclipse.cdt.build.core.settings.holder">
-								<inputType id="org.eclipse.cdt.build.core.settings.holder.inType.611772189" languageId="org.eclipse.cdt.core.g++" languageName="GNU C++" sourceContentType="org.eclipse.cdt.core.cxxSource,org.eclipse.cdt.core.cxxHeader" superClass="org.eclipse.cdt.build.core.settings.holder.inType"/>
-							</tool>
-							<tool id="org.eclipse.cdt.build.core.settings.holder.985510118" name="GNU C" superClass="org.eclipse.cdt.build.core.settings.holder">
-								<inputType id="org.eclipse.cdt.build.core.settings.holder.inType.1218297730" languageId="org.eclipse.cdt.core.gcc" languageName="GNU C" sourceContentType="org.eclipse.cdt.core.cSource,org.eclipse.cdt.core.cHeader" superClass="org.eclipse.cdt.build.core.settings.holder.inType"/>
-							</tool>
+				<configuration buildProperties="" id="cdt.managedbuild.toolchain.gnu.cross.base.523952327" name="Default" parent="org.eclipse.cdt.build.core.emptycfg">
+					<folderInfo id="cdt.managedbuild.toolchain.gnu.cross.base.523952327.1609191342" name="/" resourcePath="">
+						<toolChain id="cdt.managedbuild.toolchain.gnu.cross.base.867891681" name="cdt.managedbuild.toolchain.gnu.cross.base" superClass="cdt.managedbuild.toolchain.gnu.cross.base">
+							<option id="cdt.managedbuild.option.gnu.cross.prefix.1426144969" name="Prefix" superClass="cdt.managedbuild.option.gnu.cross.prefix"/>
+							<option id="cdt.managedbuild.option.gnu.cross.path.2096523363" name="Path" superClass="cdt.managedbuild.option.gnu.cross.path"/>
+							<targetPlatform archList="all" binaryParser="org.eclipse.cdt.core.ELF" id="cdt.managedbuild.targetPlatform.gnu.cross.1744089213" isAbstract="false" osList="all" superClass="cdt.managedbuild.targetPlatform.gnu.cross"/>
+							<builder id="cdt.managedbuild.builder.gnu.cross.1688705950" managedBuildOn="false" name="Gnu Make Builder.Default" superClass="cdt.managedbuild.builder.gnu.cross"/>
+							<tool id="cdt.managedbuild.tool.gnu.cross.c.compiler.851610324" name="Cross GCC Compiler" superClass="cdt.managedbuild.tool.gnu.cross.c.compiler"/>
+							<tool id="cdt.managedbuild.tool.gnu.cross.cpp.compiler.619294993" name="Cross G++ Compiler" superClass="cdt.managedbuild.tool.gnu.cross.cpp.compiler"/>
+							<tool id="cdt.managedbuild.tool.gnu.cross.c.linker.170396811" name="Cross GCC Linker" superClass="cdt.managedbuild.tool.gnu.cross.c.linker"/>
+							<tool id="cdt.managedbuild.tool.gnu.cross.cpp.linker.1075695489" name="Cross G++ Linker" superClass="cdt.managedbuild.tool.gnu.cross.cpp.linker"/>
+							<tool id="cdt.managedbuild.tool.gnu.cross.archiver.127218981" name="Cross GCC Archiver" superClass="cdt.managedbuild.tool.gnu.cross.archiver"/>
+							<tool id="cdt.managedbuild.tool.gnu.cross.assembler.610705101" name="Cross GCC Assembler" superClass="cdt.managedbuild.tool.gnu.cross.assembler"/>
 						</toolChain>
 					</folderInfo>
 				</configuration>
@@ -36,14 +34,14 @@
 			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
 		</cconfiguration>
 	</storageModule>
-	<storageModule moduleId="cdtBuildSystem" version="4.0.0">
-		<project id="lab3.null.1283806561" name="lab3"/>
-	</storageModule>
 	<storageModule moduleId="scannerConfiguration">
 		<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
 		<scannerConfigBuildInfo instanceId="0.1187852349">
 			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
 		</scannerConfigBuildInfo>
+	</storageModule>
+	<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+		<project id="lab3.null.295294166" name="lab3"/>
 	</storageModule>
 	<storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
 </cproject>
