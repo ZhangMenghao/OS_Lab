@@ -319,16 +319,16 @@ No.1 philosopher_condvar quit
 No.1 philosopher_sema quit
 No.4 philosopher_condvar quit
 main: fork ok,now need to wait pids.
-child pid 17, acc 1752000, time 1401
+child pid 17, acc 1764000, time 1401
 child pid 15, acc 1060000, time 1402
-child pid 13, acc 376000, time 1403
-main: pid 13, acc 376000, time 1403
-child pid 16, acc 1408000, time 1403
-child pid 14, acc 712000, time 1404
-main: pid 14, acc 712000, time 1404
+child pid 13, acc 380000, time 1402
+main: pid 13, acc 380000, time 1402
+child pid 16, acc 1428000, time 1403
+child pid 14, acc 728000, time 1404
+main: pid 14, acc 728000, time 1404
 main: pid 15, acc 1060000, time 1404
-main: pid 16, acc 1408000, time 1404
-main: pid 17, acc 1752000, time 1404
+main: pid 16, acc 1428000, time 1404
+main: pid 17, acc 1764000, time 1404
 main: wait pids over
 stride sched correct result: 1 2 3 4 5
 all user-mode processes have quit.
